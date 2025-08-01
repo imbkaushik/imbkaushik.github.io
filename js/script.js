@@ -43,15 +43,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Download CV functionality
     const downloadBtn = document.querySelector('.download-cv');
     downloadBtn.addEventListener('click', function() {
-        // Replace with your actual CV file path
-        const cvUrl = 'assets/cv.pdf';
+        const cvUrl = 'assets/Bhaswata_Kaushik_Resume.pdf';                    // ← Your CV file path
         const link = document.createElement('a');
         link.href = cvUrl;
-        link.download = 'Bhaswata_Kaushik_CV.pdf';
+        link.download = 'Bhaswata_Kaushik_Resume.pdf';               // ← Name for downloaded file
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
     });
+
 
     // Typing animation for the intro text
     const introText = "Hi, I'm Bhaswata";
