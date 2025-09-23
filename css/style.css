@@ -165,6 +165,7 @@ body {
 }
 
 .download-cv {
+    text-decoration: none;
     background: #e91e63;
     color: white;
     border: none;
